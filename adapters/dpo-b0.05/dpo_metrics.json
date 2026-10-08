@@ -1,0 +1,9 @@
+{
+  "compute_tier": "T4",
+  "beta": 0.05,
+  "eval_reward_accuracy": 0.64,
+  "eval_chosen_reward": 0.285,
+  "eval_rejected_reward": 0.143,
+  "eval_reward_gap": 0.142,
+  "diagnosis": "LIKELIHOOD DISPLACEMENT"
+}

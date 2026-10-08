@@ -1,0 +1,9 @@
+{
+  "compute_tier": "T4",
+  "beta": 0.1,
+  "eval_reward_accuracy": 0.66,
+  "eval_chosen_reward": 0.404,
+  "eval_rejected_reward": 0.32,
+  "eval_reward_gap": 0.084,
+  "diagnosis": "INTENDED"
+}

@@ -1,0 +1,37 @@
+{
+  "compute_tier": "T4",
+  "dtype": "float16",
+  "chat_template": true,
+  "results": [
+    {
+      "benchmark": "IFEval",
+      "task": "leaderboard_ifeval",
+      "limit_per_subtask": 100,
+      "sft": 0.425,
+      "sft_stderr": 0.022,
+      "dpo": 0.458,
+      "dpo_stderr": 0.022,
+      "delta": 0.033
+    },
+    {
+      "benchmark": "GSM8K",
+      "task": "gsm8k",
+      "limit_per_subtask": 100,
+      "sft": 0.38,
+      "sft_stderr": 0.013,
+      "dpo": 0.375,
+      "dpo_stderr": 0.013,
+      "delta": -0.005
+    },
+    {
+      "benchmark": "Global-MMLU-vi",
+      "task": "global_mmlu_vi",
+      "limit_per_subtask": 100,
+      "sft": 0.49,
+      "sft_stderr": 0.016,
+      "dpo": 0.505,
+      "dpo_stderr": 0.016,
+      "delta": 0.015
+    }
+  ]
+}
